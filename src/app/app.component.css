@@ -1,0 +1,24 @@
+#topBar{
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+}
+
+#content{
+  left: -10px;
+  position: relative;
+  padding-left: 10vw;
+  padding-top: 200px;
+  padding-bottom: 100px;
+
+  background-color: #e3dfdf;
+  width: 100%;
+}
+#body{
+  margin-top: 30px;
+  background-color: #c4c2c2;
+  width: 80vw;
+  left: 10vw;
+  height: 100%;
+}
