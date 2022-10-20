@@ -1,0 +1,24 @@
+
+#body{
+  font-size: 25px;
+  font-family: 'Courier New' ;
+}
+
+
+#headline{
+  position: relative;
+  left: 10%;
+  top: 20px;
+}
+#text{
+  position: relative;
+  left: 10%;
+}
+
+
+
+#releaseList{
+  position: relative;
+  top: 20vh;
+  left: 10%;
+}

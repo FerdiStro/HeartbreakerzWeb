@@ -1,0 +1,42 @@
+#bar{
+  background-color: #282c34;
+  position: fixed;
+  width: 100vw;
+  height: 150px;
+  border-bottom: black 1px solid;
+}
+#body{
+  position: relative;
+  width: 80vw;
+  top: 50px;
+  left: 10vw;
+
+}
+
+
+.content{
+  color: #778366;
+
+  font-family: 'Courier New' ;
+  font-size: 40px;
+  margin-left: 2vw;
+  display: inline;
+}
+.content:hover{
+  color: black;
+  background-color: indianred;
+  border-bottom: solid black 3px;
+
+}
+
+
+#logo{
+  padding:1px;
+  left: 93vw;
+  top: 0;
+  height: 150px;
+  width: 150px;
+  position:fixed;
+
+
+}

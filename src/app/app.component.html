@@ -1,0 +1,53 @@
+<div id="computerView" *ngIf="!isPhoneSize">
+  <app-top-bar id="topBar" (selectedPageEvent)="selectSite($event)" ></app-top-bar>
+  <div id="content">
+    <div id="body">
+
+      <app-work-content  *ngIf="selectedSite ==0" [SiteName]="'HOME'" ></app-work-content>
+      <app-work-content  *ngIf="selectedSite ==1" [SiteName]="'SHOP'" ></app-work-content>
+<!--      <app-home-content *ngIf="selectedSite ==0"></app-home-content>-->
+<!--      <app-shop-content *ngIf="selectedSite ==1"></app-shop-content>-->
+      <app-releases-content *ngIf="selectedSite ==2"></app-releases-content>
+
+
+    </div>
+
+
+    impressum
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="phoneSize" *ngIf="isPhoneSize">
+
+</div>
