@@ -1,4 +1,4 @@
-#topBar{
+.topBar{
   position: fixed;
   z-index: 1;
   left: 0;
@@ -22,3 +22,4 @@
   left: 10vw;
   height: 100%;
 }
+

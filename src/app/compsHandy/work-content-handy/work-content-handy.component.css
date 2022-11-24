@@ -1,0 +1,58 @@
+#body{
+
+  position: relative;
+  font-size: 15px;
+  font-family: 'Courier New' ;
+  left: 10%;
+  top: 140px;
+  width: 85vw;
+
+  padding-bottom: 40vh;
+  /*background-color: red;*/
+}
+#pic{
+  /*width: 1200px;*/
+  height: 800px;
+  width: 100%;
+  position: relative;
+  border: transparent 1px solid;
+  border-radius: 5px;
+
+}
+
+.text{
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.hover{
+  color: #d25c24;
+
+  display: inline;
+}
+
+.hover:hover{
+  color: black;
+  border-bottom: solid black 3px;
+  cursor: pointer;
+  background-color: indianred;
+
+
+}
+/*All LOGOS*/
+.Logo{
+  border: transparent 2px solid;
+  border-radius: 10px;
+  padding:5px;
+  margin-top: 20px;
+  margin-right: 20px;
+  display: inline-block;
+  width: 70px;
+
+}
+.Logo:hover{
+  background-color: #b2b0b0;
+  cursor: pointer;
+
+
+}
