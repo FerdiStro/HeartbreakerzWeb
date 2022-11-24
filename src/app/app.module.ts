@@ -9,17 +9,22 @@ import { ShopContentComponent } from './comps/shop-content/shop-content.componen
 import { ReleasesContentComponent } from './comps/releases-content/releases-content.component';
 import { WorkContentComponent } from './comps/work-content/work-content.component';
 import { ButtomSectionComponent } from './comps/buttom-section/buttom-section.component';
+import { TopBarHandyComponent } from './compsHandy/top-bar-handy/top-bar-handy.component';
+import { WorkContentHandyComponent } from './compsHandy/work-content-handy/work-content-handy.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    TopBarComponent,
-    HomeContentComponent,
-    ShopContentComponent,
-    ReleasesContentComponent,
-    WorkContentComponent,
-    ButtomSectionComponent
-  ],
+    declarations: [
+        AppComponent,
+        TopBarComponent,
+        HomeContentComponent,
+        ShopContentComponent,
+        ReleasesContentComponent,
+        WorkContentComponent,
+        ButtomSectionComponent,
+        TopBarComponent,
+        TopBarHandyComponent,
+        WorkContentHandyComponent
+    ],
   imports: [
     BrowserModule
   ],
