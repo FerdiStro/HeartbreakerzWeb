@@ -11,6 +11,7 @@ import { WorkContentComponent } from './comps/work-content/work-content.componen
 import { ButtomSectionComponent } from './comps/buttom-section/buttom-section.component';
 import { TopBarHandyComponent } from './compsHandy/top-bar-handy/top-bar-handy.component';
 import { WorkContentHandyComponent } from './compsHandy/work-content-handy/work-content-handy.component';
+import { HandyButtonSectionComponent } from './compsHandy/handy-button-section/handy-button-section.component';
 
 @NgModule({
     declarations: [
@@ -23,7 +24,8 @@ import { WorkContentHandyComponent } from './compsHandy/work-content-handy/work-
         ButtomSectionComponent,
         TopBarComponent,
         TopBarHandyComponent,
-        WorkContentHandyComponent
+        WorkContentHandyComponent,
+        HandyButtonSectionComponent
     ],
   imports: [
     BrowserModule
