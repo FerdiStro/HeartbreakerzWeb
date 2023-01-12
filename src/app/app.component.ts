@@ -1,5 +1,5 @@
 import {Component, Input} from '@angular/core';
-import {ApplicationStateService} from "../Services /application-state.service";
+import {ApplicationStateService} from "../Services/application-state.service";
 
 
 @Component({

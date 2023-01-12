@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { TopBarComponent } from './comps/top-bar/top-bar.component';
-import {ApplicationStateService} from "../Services /application-state.service";
+import {ApplicationStateService} from "../Services/application-state.service";
 import { HomeContentComponent } from './comps/home-content/home-content.component';
 import { ShopContentComponent } from './comps/shop-content/shop-content.component';
 import { ReleasesContentComponent } from './comps/releases-content/releases-content.component';
