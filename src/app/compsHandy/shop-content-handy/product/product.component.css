@@ -1,0 +1,78 @@
+#content{
+  margin: 5px;
+  /*background-color: white;*/
+}
+
+/*Sections*/
+#pictureSection{
+  margin-top: 10px;
+  margin-left: 5px;
+  display: inline-block;
+}
+
+#sectionLeft{
+  padding-left: 2px;
+  display: inline-block;
+  width: 170px;
+  top: -66px;
+  height: 200px;
+  position: relative;
+
+
+}
+
+#button{
+  display: inline-block;
+  font-size: 15px;
+  padding: 5px;
+  color: #e1dede;
+  background-color: #282c34;
+  border-color: transparent;
+  border-radius: 20px;
+  position: relative;
+}
+
+
+
+
+/*Text*/
+
+#title{
+  font-size: 20px;
+  font-family: 'Courier New' ;
+
+
+}
+#text{
+  margin-left: 5px;
+
+
+  font-family: 'Courier New' ;
+  font-size: 14px;
+
+}
+#price{
+  position: relative;
+  top: 30px;
+  margin-left:  19px;
+  font-size: 19px;
+
+}
+
+
+
+
+
+
+
+
+
+/*Prod Picture*/
+#prod{
+  width: 200px;
+  height: 200px;
+}
+
+
+
+
