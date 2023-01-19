@@ -1,6 +1,7 @@
 #content{
-  margin: 5px;
-  /*background-color: white;*/
+  margin: 5px 5px 20px;
+  background-color: #121212;
+
 }
 
 /*Sections*/
@@ -17,10 +18,12 @@
   top: -45px;
   height: 200px;
   position: relative;
-
-
 }
 
+
+
+
+/* Sold out Button*/
 #button{
   display: inline-block;
   font-size: 15px;
@@ -33,10 +36,7 @@
 }
 
 
-
-
 /*Text*/
-
 #title{
   font-size: 20px;
   font-family: 'Courier New' ;
@@ -62,21 +62,28 @@
 
 
 
-
-
-
-
-
 /*Prod Picture*/
 #prod{
-  /*width: 200px;*/
-  /*height: 200px;*/
-
   width: 45vw;
   height: 45vw;
 
 }
 
 
+/*Bottom Section */
+#sectionBottom{
+  top: -50px;
+  left: 10px;
+  position: relative;
 
 
+}
+.miniIcon{
+  margin-right: 5px;
+  display: inline;
+  width: 50px;
+  height: 50px;
+}
+#borderIcon{
+  border: black 3px solid;
+}

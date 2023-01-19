@@ -23,6 +23,10 @@ export class ProductComponent implements OnInit {
   productDescription:string = '';
 
 
+  select(i: number){
+    this.selected = i;
+  }
+
 
   constructor() { }
 

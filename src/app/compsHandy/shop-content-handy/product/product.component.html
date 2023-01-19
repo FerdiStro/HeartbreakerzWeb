@@ -1,6 +1,4 @@
 
-
-<link rel="stylesheet" href="product.component.css">
 <div id="content">
   <section  id="pictureSection">
     <img id="prod" src="assets/Shop/{{products[selected]}}" alt="">
@@ -19,10 +17,21 @@
       {{price}} €
       <button id="button">Sold-out</button>
     </div>
-
-
   </section>
-  <section id="selectButtons;">
+  <section id="sectionBottom">
+
+    <div *ngIf="products.length > 1"  >
+      <div style="display: inline" *ngFor="let pic of products;let i = index; " >
+        <div *ngIf="i == selected" style="display: inline">
+          <img class="miniIcon" id="borderIcon" src="assets/Shop/{{pic}}" alt="">
+        </div>
+        <div *ngIf="i != selected" style="display: inline">
+          <img class="miniIcon" src="assets/Shop/{{pic}}" alt="" (click)="select(i)">
+        </div>
+
+      </div>
+    </div>
+
 
 
 
