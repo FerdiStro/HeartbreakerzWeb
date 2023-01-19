@@ -1,9 +1,9 @@
 <div id="content">
   <div id="body" >
-    <app-product id="product_1"  [price]="'1.00'"  [title]="'Sticker Pack'" [products]="['Sticker/img.png','Sticker/img_1.png','Sticker/img_2.png']" ></app-product>
-    <app-product id="product_2"  [price]="'20.00'" [title]="'Heart-Hoodie'"  [products]="['Hoodie/Hoodie_01.png']" ></app-product>
-    <app-product id="product_3"  [price]="'20.00'" [title]="'Rose-Hoodie'" [products]="['Hoodie/Hoodie_02.png']" ></app-product>
-    <app-product price="'15.00'"  [title]="'Kissen'" [products]="['Kissen/Kissen_Design.png']"></app-product>
+    <app-product id="product_1" [productDescription]="content.STICKER_PACK_DESCRIPTION"  [price]="'1.00'"  [title]="'Sticker Pack'" [products]="['Sticker/img.png','Sticker/img_1.png','Sticker/img_2.png']" ></app-product>
+    <app-product id="product_2" [productDescription]="content.HOODIE_1_DESCRIPTION"  [price]="'20.00'" [title]="'Heart-Hoodie'"  [products]="['Hoodie/Hoodie_01.png']" ></app-product>
+    <app-product id="product_3" [productDescription]="content.HOODIE_2_DESCRIPTION" [price]="'20.00'" [title]="'Rose-Hoodie'" [products]="['Hoodie/Hoodie_02.png']" ></app-product>
+    <app-product price="'15.00'" [productDescription]="content.PILLOW_DESCRIOPTION" [title]="'Kissen'" [products]="['Kissen/Kissen_Design.png']"></app-product>
 
 
   </div>

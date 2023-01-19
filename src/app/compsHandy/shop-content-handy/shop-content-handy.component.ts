@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {ContentClass} from "../ContentClass";
 
 @Component({
   selector: 'app-shop-content-handy',
@@ -9,7 +10,8 @@ export class ShopContentHandyComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
-  }
+  content:ContentClass = new ContentClass();
+
+  ngOnInit(): void {}
 
 }

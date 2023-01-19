@@ -19,6 +19,9 @@ export class ProductComponent implements OnInit {
   @Input()
   products:string[]   =  [] ;
 
+  @Input()
+  productDescription:string = '';
+
 
 
   constructor() { }
