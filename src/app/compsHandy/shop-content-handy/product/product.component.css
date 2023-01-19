@@ -10,11 +10,11 @@
   display: inline-block;
 }
 
-#sectionLeft{
+#sectionRight{
   padding-left: 2px;
   display: inline-block;
   width: 170px;
-  top: -66px;
+  top: -45px;
   height: 200px;
   position: relative;
 
@@ -69,8 +69,12 @@
 
 /*Prod Picture*/
 #prod{
-  width: 200px;
-  height: 200px;
+  /*width: 200px;*/
+  /*height: 200px;*/
+
+  width: 45vw;
+  height: 45vw;
+
 }
 
 
