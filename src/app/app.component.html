@@ -17,21 +17,31 @@
     <app-buttom-section></app-buttom-section>
   </div>
 
+
+
   <div id="phoneSize" *ngIf="isPhoneSize">
+    <img src="../assets/backgroundVid.gif" loop=infinite id="vidHandy" />
     <app-top-bar-handy class="topBar" (selectedPageEvent)="selectSite($event)"></app-top-bar-handy>
     <div id="contentHandy">
       <div id="body-Handy">
+
+
+
+
         <app-work-content-handy *ngIf="selectedSite == 0" [SiteName]="'HOME'"></app-work-content-handy>
-        <app-work-content-handy *ngIf="selectedSite == 1" [SiteName]="'Shop'"></app-work-content-handy>
-        <app-work-content-handy *ngIf="selectedSite == 2" [SiteName]="'Releases'"></app-work-content-handy>
+        <app-shop-content-handy *ngIf="selectedSite == 1" ></app-shop-content-handy>
+        <app-release-page-handy *ngIf="selectedSite ==2" ></app-release-page-handy>
+
 <!--        <app-work-content  *ngIf="selectedSite ==0" [SiteName]="'HOME'" ></app-work-content>-->
 <!--        <app-work-content  *ngIf="selectedSite ==1" [SiteName]="'SHOP'" ></app-work-content>-->
 <!--        &lt;!&ndash;      <app-home-content *ngIf="selectedSite ==0"></app-home-content>&ndash;&gt;-->
 <!--        &lt;!&ndash;      <app-shop-content *ngIf="selectedSite ==1"></app-shop-content>&ndash;&gt;-->
 <!--        <app-releases-content *ngIf="selectedSite ==2"></app-releases-content>-->
       </div>
+
+      <app-handy-button-section id="bottom-handy"></app-handy-button-section>
     </div>
-    <app-handy-button-section id="bottom-handy"></app-handy-button-section>
+
   </div>
 
 

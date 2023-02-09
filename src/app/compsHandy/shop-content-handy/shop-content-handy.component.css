@@ -1,0 +1,32 @@
+#content{
+  width: 100%;
+  height: 100%;
+
+}
+
+
+
+#body{
+  padding-top: 1px;
+  margin-left: 5px;
+  width: 98%;
+  height:  90%;
+  position: relative;
+  top: 4px;
+  padding-bottom: 20%;
+
+
+
+}
+
+
+
+/* Text */
+
+#headline{
+  /*padding: 10px 10px 10px 2vw;*/
+  position: relative;
+  font-family: 'Courier New', serif ;
+  font-size: 25px;
+
+}

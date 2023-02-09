@@ -23,6 +23,32 @@
   height: 100%;
 }
 
+
+
 #bottom-handy{
   width: 100%;
 }
+
+#contentHandy{
+  overflow-x: hidden;
+  background-color: #110e0e;
+  position: relative;
+  width: 101vw;
+  left: -10px;
+  top: 75vh;
+
+}
+
+
+
+#vidHandy{
+
+  left: -10px;
+  /*top: -10vh;*/
+  position: fixed;
+  width: 110vw;
+  height: 100vh;
+  z-index: -1;
+
+}
+

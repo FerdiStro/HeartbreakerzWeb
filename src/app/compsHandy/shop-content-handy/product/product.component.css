@@ -1,0 +1,89 @@
+#content{
+  margin: 5px 5px 20px;
+  background-color: #121212;
+
+}
+
+/*Sections*/
+#pictureSection{
+  margin-top: 10px;
+  margin-left: 5px;
+  display: inline-block;
+}
+
+#sectionRight{
+  padding-left: 2px;
+  display: inline-block;
+  width: 170px;
+  top: -45px;
+  height: 200px;
+  position: relative;
+}
+
+
+
+
+/* Sold out Button*/
+#button{
+  display: inline-block;
+  font-size: 15px;
+  padding: 5px;
+  color: #e1dede;
+  background-color: #282c34;
+  border-color: transparent;
+  border-radius: 20px;
+  position: relative;
+}
+
+
+/*Text*/
+#title{
+  font-size: 20px;
+  font-family: 'Courier New' ;
+
+
+}
+#text{
+  margin-left: 5px;
+
+
+  font-family: 'Courier New' ;
+  font-size: 14px;
+
+}
+#price{
+  position: relative;
+  top: 30px;
+  margin-left:  19px;
+  font-size: 19px;
+
+}
+
+
+
+
+/*Prod Picture*/
+#prod{
+  width: 45vw;
+  height: 45vw;
+
+}
+
+
+/*Bottom Section */
+#sectionBottom{
+  top: -50px;
+  left: 10px;
+  position: relative;
+
+
+}
+.miniIcon{
+  margin-right: 5px;
+  display: inline;
+  width: 50px;
+  height: 50px;
+}
+#borderIcon{
+  border: black 3px solid;
+}
