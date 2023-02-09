@@ -31,12 +31,12 @@
 
 #contentHandy{
   overflow-x: hidden;
-  margin-bottom: 200px;
   background-color: #110e0e;
   position: relative;
-  width: 100vw;
+  width: 101vw;
   left: -10px;
   top: 75vh;
+
 }
 
 
