@@ -1,6 +1,7 @@
 # HeartbreakerzWeb
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.9.
+Official Website for DJ Heartbreakerz [Instagram](https://www.instagram.com/dj_heartbreakerz.official/)
 
 ## Development server
 
@@ -32,6 +33,10 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Docker
 
 Run application on docker: 
+
+First build Project:
+
+`ng build`
 
 Build Docker-Image:
 
