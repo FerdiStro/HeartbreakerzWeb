@@ -1,0 +1,40 @@
+
+<div id="content">
+  <div id="body" >
+    <div id="date">
+      <b> {{date}}</b>
+    </div>
+
+    <div id="pictures">
+    <img *ngIf="pictureFormat[selected] == 'r'" id="pictureR" src="assets/LiveSets/{{date}}/{{pictures[selected]}}" alt="">
+    <img *ngIf="pictureFormat[selected] == 'h'" id="pictureH" src="assets/LiveSets/{{date}}/{{pictures[selected]}}" alt="">
+    <img *ngIf="pictureFormat[selected] == 'q'" id="pictureQ" src="assets/LiveSets/{{date}}/{{pictures[selected]}}" alt="">
+    <div *ngIf="pictures.length > 1"  >
+      <div style="display: inline" *ngFor="let pic of pictures;let i = index; " >
+        <div *ngIf="i == selected" style="display: inline">
+          <img class="miniIcon" id="borderIcon" src="assets/LiveSets/{{date}}/{{pic}}" alt="">
+        </div>
+        <div *ngIf="i != selected" style="display: inline">
+          <img class="miniIcon" src="assets/LiveSets/{{date}}/{{pic}}" alt="" (click)="select(i)">
+        </div>
+
+      </div>
+    </div>
+    </div>
+<!--    <iframe id="playList" src="https://open.spotify.com/embed/playlist/2diAaKbjz27uVp95S5gUMY?utm_source=generator&theme=0"  frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>-->
+
+    TEST
+    <div id="error"> {{errorString}} </div>
+    <div *ngFor="let song  of trackList; let i  = index;">
+      {{song.track.name}}
+      {{song.track.artists[0].name}}
+
+    </div>
+<!--    <iframe id="playList" src="{{link2}}" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>-->
+  </div>
+
+
+
+
+
+</div>

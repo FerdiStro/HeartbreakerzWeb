@@ -1,1 +1,43 @@
-<p>release-page-handy works!</p>
+<div id="content">
+  <div id="body">
+
+
+    <div id="headline">
+      <b><h1>Releases</h1></b>
+    </div>
+    <div class="text">
+      {{content.SPOTIFY_RELEASE_TEXT}}
+    </div>
+    <div>
+
+
+
+      <app-songs-realeses [trackTitle]="'Mein Herz schlägt Schlager'"  [youTubeURL]="content.IMG_1" ></app-songs-realeses>
+      <app-songs-realeses [trackTitle]="'Halb Acht'" [youTubeURL]="content.IMG_2" ></app-songs-realeses>
+
+
+
+
+
+      <iframe class="songs"  style="border-radius:12px" src="https://open.spotify.com/embed/track/68SajiYeD8sMDAZeOcd1I6?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+      <iframe class="songs"  style="border-radius:12px" src="https://open.spotify.com/embed/track/3hFKytSloxVHOnm5bqNUlQ?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+    </div>
+    <div id="livesets">
+    <b><h3>Live-Sets</h3></b>
+    <div class="text">
+      {{content.LIVES_TEXT}}
+    </div>
+<!--  List of all Live-sets -->
+    <!--h =  hoch , q  = quer , r =  rechteck -->
+
+    <app-live-sets date="04.11.2022" [pictureFormat]="['h','q', 'q']" [pictures]="['01.png', '02.png', '03.png']" [musicNames]="['test','test']"></app-live-sets>
+    <app-live-sets date="09.12.2022" [pictureFormat]= "['r', 'h' ] " [pictures]="['01.png', '02.png']" ></app-live-sets>
+    <app-live-sets></app-live-sets>
+    <app-live-sets></app-live-sets>
+    </div>
+  </div>
+
+
+
+
+</div>

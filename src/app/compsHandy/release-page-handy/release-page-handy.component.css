@@ -1,0 +1,38 @@
+#headline{
+  /*padding: 10px 10px 10px 2vw;*/
+  position: relative;
+  font-family: 'Courier New', serif ;
+  font-size: 25px;
+
+}
+
+
+#content{
+  font-family: 'Courier New', serif ;
+  padding-bottom: 20vh;
+}
+
+#body{
+  margin-top: 2vh;
+  margin-left: 5px;
+}
+
+
+/*Text*/
+.text{
+  padding: 1px 5px 5px;
+  margin-bottom: 3vh;
+
+
+}
+/*Spotify Icons*/
+.songs{
+  width: 70%;
+  margin-top: 5px;
+  margin-left: 5vw;
+
+}
+#livesets{
+  margin-top: 10vh;
+}
+

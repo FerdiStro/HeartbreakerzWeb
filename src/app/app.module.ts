@@ -15,6 +15,11 @@ import { HandyButtonSectionComponent } from './compsHandy/handy-button-section/h
 import { ShopContentHandyComponent } from './compsHandy/shop-content-handy/shop-content-handy.component';
 import { ProductComponent } from './compsHandy/shop-content-handy/product/product.component';
 import { ReleasePageHandyComponent } from './compsHandy/release-page-handy/release-page-handy.component';
+import { LiveSetsComponent } from './compsHandy/release-page-handy/live-sets/live-sets.component';
+import {GetSpotifyDataService} from "./services /get-spotify-data.service";
+import {HttpClientModule} from "@angular/common/http";
+import { SongsRealesesComponent } from './compsHandy/release-page-handy/songs-realeses/songs-realeses.component';
+import { MusicPlayerComponent } from './compsHandy/release-page-handy/songs-realeses/music-player/music-player.component';
 
 @NgModule({
     declarations: [
@@ -31,10 +36,14 @@ import { ReleasePageHandyComponent } from './compsHandy/release-page-handy/relea
         HandyButtonSectionComponent,
         ShopContentHandyComponent,
         ProductComponent,
-        ReleasePageHandyComponent
+        ReleasePageHandyComponent,
+        LiveSetsComponent,
+        SongsRealesesComponent,
+        MusicPlayerComponent
     ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule,
   ],
   providers: [ApplicationStateService],
   bootstrap: [AppComponent]

@@ -1,0 +1,49 @@
+#error{
+  font-size: 9px;
+}
+
+
+
+#content{
+  margin-top: 2vh;
+
+
+}
+#pictureQ{
+  height: 20vh;
+  width: 58vw;
+}
+#pictureH{
+  height: 20vh;
+  width: 30vw;
+}
+#pictureR{
+  width: 20vh;
+  height: 20vh;
+}
+
+
+#date{
+  margin-bottom: 1vh;
+}
+
+.miniIcon{
+  margin-right: 5px;
+  display: inline;
+  width: 50px;
+  height: 50px;
+}
+#borderIcon{
+  border: black 3px solid;
+}
+#body{
+  margin-left: 20px;
+  background-color: #121212;
+  padding: 5%;
+  width: 80%;
+}
+#playList{
+  border-radius:12px;
+  width: 100%;
+  height: 200px;
+}

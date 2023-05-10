@@ -1,0 +1,17 @@
+
+#content{
+  margin: 1px;
+  background-color: #cdcdcd;
+  border: black solid 1px ;
+  border-radius: 5px;
+}
+
+
+.symbol{
+  position: relative;
+  width: 10vw;
+  height: 10vw;
+
+
+
+}

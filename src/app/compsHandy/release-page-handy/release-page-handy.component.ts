@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {ContentClass} from "../ContentClass";
 
 @Component({
   selector: 'app-release-page-handy',
@@ -7,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ReleasePageHandyComponent implements OnInit {
 
-  constructor() { }
+  constructor() {
+
+  }
+  content:ContentClass = new ContentClass();
 
   ngOnInit(): void {
+
   }
 
 }

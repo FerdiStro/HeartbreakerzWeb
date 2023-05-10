@@ -13,12 +13,13 @@ export class AppComponent {
   //Mobile Boolean
   isPhoneSize :boolean;
   //Page view (0 = home ; 1 =  shop; 2 =  releases)
-  selectedSite:number = 1;
+  selectedSite:number = 2;
 
 
   selectSite(test:number){
     console.log(test);
     this.selectedSite  =  test;
+
   }
 
 
